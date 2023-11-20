@@ -1,0 +1,21 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./css/css.css")
+        link(rel="stylesheet", href="./css/normalize.css")
+        title Project
+    body
+        include ./modules/header.pug
+        hr
+        main
+            section.main-banner
+                .main-banner__img-container
+                    img(src="./img/IMAGE.png", alt="")
+                .main-banner__content
+                    span.main-banner__content-text Illustration
+                    h1.main-banner__content-title Japan House opens in mountainside to foster peak creativity.
+                    .main-banner__content-desc Enim omittam qui id, ex quo atqui dictas complectitur. Nec ad timeam accusata, hinc justo falli id eum, ferri novum molestie eos cu.
+                    button.main-banner__content-btn BY Reta Torphy
+        include ./modules/footer.pug
